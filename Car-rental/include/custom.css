@@ -1,0 +1,106 @@
+
+/* Image Css For Customer Login Page */
+.bg {
+  background-image: url("/car_rental/include/images/loginback.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/* Image Css End */
+/* Background Color For Customer Login Page */
+.log {
+  background: rgb(236, 91, 91);
+}
+/* Background Color End */
+/* Button Css */
+.restore {
+  color: white;
+  border-radius: 50px;
+  font-weight: 500;
+  width: 110px;
+}
+
+.restore:hover {
+  background: white;
+  border: 1px solid;
+  color: rgb(236, 91, 91);
+}
+/* Button Css End */
+
+/* Form Input Css */
+.form-control {
+  border-radius: 50px;
+  border-color: rgb(236, 91, 91);
+}
+.form-select {
+  border-radius: 50px;
+  border-color: rgb(236, 91, 91);
+}
+.no-gutters{
+  box-shadow: 10px 10px 10px grey;
+}
+
+/* Form Input Css End */
+
+.icon{
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+/* Dropdown Css For Navbar */
+.dropdown1:hover .dropdown-content {display: block;}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.dropdown1:hover .dropdown-content a{
+  text-decoration: none;
+}
+/* Dropdown Css For Navbar End */
+/* Link/Button Css */
+a {
+  text-decoration: none;
+  
+}
+/* Link/Button Css End */
+/* Cars Card Css */
+.cars{
+  border-radius: 30px;
+}
+/* Cars Card Css End */ 
+/* Media Query For Destop And Mobile */
+@media screen and (min-width: 768px){
+  .laptop{
+  display: block;
+}
+.mobile{
+  display: none;
+}
+
+}
+
+@media screen and (max-width: 768px){
+.laptop{
+  display: none;
+}
+.mobile{
+  display: block;
+}
+
+}
+/* Media Query For Destop And Mobile End */
+
+/* Merienda font  */
+.h-font {
+  font-family: "Merienda", cursive;
+}
